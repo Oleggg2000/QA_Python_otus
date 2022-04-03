@@ -2,8 +2,8 @@ class Figure:
     def __init__(self, name):
         self.name = name
 
-    def add_area(self, figure):
+    def __add__(self, other):
         try:
-            return self.area + figure.area
+            return self.area + other.area
         except:
             raise ValueError("Impossible to sum areas! Figure isn't valid!")

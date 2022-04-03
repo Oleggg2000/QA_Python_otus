@@ -1,8 +1,8 @@
-from src.main import Figure
-from src.Triangle import Triangle, sqrt
-from src.Rectangle import Rectangle
-from src.Square import Square
-from src.Circle import Circle
+from main import Figure
+from Triangle import Triangle, sqrt
+from Rectangle import Rectangle
+from Square import Square
+from Circle import Circle
 import pytest
 
 
